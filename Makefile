@@ -1,6 +1,6 @@
 PROJECT=frser-emu
 DEPS=uart.h main.h Makefile
-SOURCES=main.c server.c flash.c
+SOURCES=main.c server.c flash.c pm49fl004t.c
 CC=gcc
 
 CFLAGS=-Os -Wl,--relax -g -Wall -W -pipe -flto -fwhole-program
